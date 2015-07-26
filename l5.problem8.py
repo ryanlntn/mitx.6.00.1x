@@ -5,4 +5,7 @@ def isIn(char, aStr):
 
     returns: True if char is in aStr; False otherwise
     '''
-    # Your code here
+    for s in aStr:
+        if s == char:
+            return True
+    return False
