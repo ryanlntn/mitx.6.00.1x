@@ -6,4 +6,4 @@ def semordnilap(str1, str2):
     returns: True if str1 and str2 are semordnilap;
              False otherwise.
     '''
-    # Your code here
+    return str1 == str2[::-1]
